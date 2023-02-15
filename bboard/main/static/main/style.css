@@ -1,0 +1,7 @@
+header h1 {
+background: url("bg_left.jpg") left / auto 100% no-repeat, url("bg_right.jpg") right / auto 100% no-repeat;
+}
+
+.root {
+font-size: larger;
+}
