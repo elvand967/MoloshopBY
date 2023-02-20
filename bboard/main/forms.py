@@ -1,4 +1,4 @@
-# D:\MEGAsync\PycharmProjects\Moloshop\bboard\main\forms.py
+# D:\User\Documents\PycharmProjects\MoloshopBY\bboard\main\forms.py
 
 # class ChangeUserInfoForm
 from django import forms
