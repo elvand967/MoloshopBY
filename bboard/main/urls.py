@@ -1,4 +1,4 @@
-# D:\MEGAsync\PycharmProjects\Moloshop\bboard\main\urls.py
+# D:\User\Documents\PycharmProjects\MoloshopBY\bboard\main\urls.py
 
 from django.urls import path
 from .views import index

@@ -1,4 +1,4 @@
-# D:\MEGAsync\PycharmProjects\Moloshop\bboard\main\views.py
+# D:\User\Documents\PycharmProjects\MoloshopBY\bboard\main\views.py
 
 # def index()
 from django.shortcuts import render

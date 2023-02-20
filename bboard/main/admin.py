@@ -1,4 +1,4 @@
-# D:\MEGAsync\PycharmProjects\Moloshop\bboard\main\admin.py
+# D:\User\Documents\PycharmProjects\MoloshopBY\bboard\main\admin.py
 
 from django.contrib import admin
 import datetime

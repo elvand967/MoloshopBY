@@ -1,4 +1,4 @@
-# D:\MEGAsync\PycharmProjects\Moloshop\bboard\main\models.py
+# D:\User\Documents\PycharmProjects\MoloshopBY\bboard\main\models.py
 
 from django.db import models
 from django.contrib.auth.models import AbstractUser

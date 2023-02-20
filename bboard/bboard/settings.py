@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
-# D:\MEGAsync\PycharmProjects\Moloshop\bboard\bboard\settings.py
+# D:\User\Documents\PycharmProjects\MoloshopBY\bboard\bboard\settings.py
 
 from pathlib import Path
 
