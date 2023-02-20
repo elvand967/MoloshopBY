@@ -1,4 +1,4 @@
-# D:\MEGAsync\PycharmProjects\Moloshop\bboard\main\middlewares.py
+# D:\User\Documents\PycharmProjects\MoloshopBY\bboard\main\middlewares.py
 
 from .models import SubRubric
 
