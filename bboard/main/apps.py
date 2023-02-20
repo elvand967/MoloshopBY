@@ -1,4 +1,4 @@
-# D:\MEGAsync\PycharmProjects\Moloshop\bboard\main\apps.py
+# D:\User\Documents\PycharmProjects\MoloshopBY\bboard\main\apps.py
 
 # class MainConfig
 from django.apps import AppConfig
@@ -6,7 +6,8 @@ from django.apps import AppConfig
 # def user_registered_dispatcher
 from django.dispatch import Signal
 from .utilities import send_activation_notification
-user_registered = Signal()
+# user_registered = Signal(providing_args=['instance']) # см. далее
+user_registered = Signal() # уточнен для Джанго4
 
 
 class MainConfig(AppConfig):

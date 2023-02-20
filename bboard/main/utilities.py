@@ -1,5 +1,5 @@
 
-# D:\MEGAsync\PycharmProjects\Moloshop\bboard\main\utilities.py
+# D:\User\Documents\PycharmProjects\MoloshopBY\bboard\main\utilities.py
 
 from django.template.loader import render_to_string
 from django.core.signing import Signer
