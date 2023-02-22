@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 # D:\User\Documents\PycharmProjects\MoloshopBY\bboard\bboard\settings.py
 
 from pathlib import Path
-
+import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'main.apps.MainConfig',
     'bootstrap4',
+    'django-cleanup',
+    'easy-thumbnails',
 ]
 
 MIDDLEWARE = [
@@ -54,6 +56,20 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'bboard.urls'
+
+МEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+МEDIA_URL = '/media/'
+
+THUМВNAIL_ALIASES = {
+    '':{
+        'default': {
+            'size': (96, 96),
+            'crop': 'scale',
+            },
+        },
+    }
+THUМВNAIL_BASEDIR = 'thumbnails'
+
 
 TEMPLATES = [
     {
