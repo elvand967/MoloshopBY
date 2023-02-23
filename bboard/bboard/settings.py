@@ -41,8 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'main.apps.MainConfig',
     'bootstrap4',
-    'django-cleanup',
-    'easy-thumbnails',
+    'django_cleanup',
+    'easy_thumbnails',
 ]
 
 MIDDLEWARE = [
@@ -57,10 +57,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'bboard.urls'
 
-МEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-МEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
 
-THUМВNAIL_ALIASES = {
+THUMBNAIL_ALIASES = {
     '':{
         'default': {
             'size': (96, 96),
@@ -68,7 +68,7 @@ THUМВNAIL_ALIASES = {
             },
         },
     }
-THUМВNAIL_BASEDIR = 'thumbnails'
+THUMBNAIL_BASEDIR = 'thumbnails'
 
 
 TEMPLATES = [
